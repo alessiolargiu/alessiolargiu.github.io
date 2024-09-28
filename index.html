@@ -1,44 +1,54 @@
 <html>
 <head>
-  <link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+  	<link rel="stylesheet" href="style.css">
+  	<title> Alessio Largiu - CV </title>
 </head>
+<div class="lineone"></div>
+<div class="linetwo"></div>
 <body>
 
 
 <div class="infocard">
 	<div class="image">
-		<img src="photo.jpg">
+		<img src="fotoprofilo.png">
 	</div>
-	<span class="name"> Alessio </span>
+	<div class="daticontainer">
+	<span class="name"> Alessio Largiu</span>
 	<span class="dati"> 18/08/2000 Cento (FE) </span>
 	<span class="dati"> alessiolargiu168@gmail.com </span>
 	<span class="dati"> (+39) 329 698 2968</span>
+	<div class="links">
 	<div class="sociallink">
 		<img src="github.png">
-		<span> Alessio Largiu </span>
+		<span> alextheloser </span>
 	</div>
 	<div class="sociallink">
-		<img src="github.png">
+		<img src="linkedin.png">
 		<span> Alessio Largiu </span>
+	</div>
 	</div>
 
-	<button class="downloadcv"> Scarica il mio CV </button>
+	  <a href="CV.pdf" download="GFG">
+        <button type="button">Scarica il mio CV</button>
+    </a>
+</div>
 </div>
 
 <div class="sectioncontainer">
 	<div class="section">
-		<span> Software </span>
+		<span class="title"> Software </span>
 		<div class="expcontainer">
 			<span class="date"> 2023 -> 2024 </span>
-			<p class="desc">
-				<b> Adiacent Cagliari </b>
+			<p class="desc"><b class="job"> Adiacent Cagliari </b>
 				Esperienza full stack principalmente focalizzata sul lato front-end. 
-				La maggior parte dei progetti su cui ho lavorato erano basati su AEM Sites e AEM Forms.
+				La maggior parte dei progetti su cui ho lavorato erano basati su <b>AEM Sites e AEM Forms</b>.
 			</p>
 
 			<span class="date"> 2019 -> Oggi </span>
-			<p class="desc">
-				<b> Freelancing </b>
+			<p class="desc"><b class="job">Freelancing </b>
 				Ho lavorato per vari individui, aziende e privati, su progetti incentrati in ambienti diversi tra cui:
 				<ul>
 				<li>Programmazione Web</li>
@@ -47,8 +57,37 @@
 				<li>Estensioni per browser</li>
 			</ul>
 			</p>
-
 		</div>
+	</div>
+	<div class="section">
+		<span class="title"> Design </span>
+		<div class="expcontainer alt">
+			<span class="date"> 2019 -> Oggi </span>
+			<p class="desc"><b class="job"> Freelancing </b>
+				Ho lavorato su commissione per una start-up incentrata sul mercato del lavoro, dalla creazione di branding, design language al layout del loro prodotto e pagine web.
+			</p>
+
+			<span class="date"> 2020 -> 2024 </span>
+			<p class="desc"><b class="job">Università</b>
+				Creazione progetto per il corso di Interazione Uomo-Macchina, focalizzato sugli studi di usabilità e euristiche grafiche.
+
+				Inoltre all’università ho avuto modo di lavorare su diversi progetti incentrati sul creare applicativi e, di conseguenza è stato necessario curarne la parte grafica.
+			</p>
+		</div>
+	</div>
+	<div class="section">
+		<span class="title"> Videogames </span>
+		<div class="expcontainer">
+			<span class="date"> 2020 -> 2024 </span>
+			<p class="desc"><b class="job"> Università </b>
+						Creazione progetto per il corso Video Game Design, incentrato sulla creazione, da zero, di un videogioco in Unity, applicando concetti di level-design e modellazione 3D.
+			</p>
+
+			<img src="kor.png">
+		</div>
+	</div>
+</div>
+
 
 </body>
 </html>

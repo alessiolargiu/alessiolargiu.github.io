@@ -186,6 +186,7 @@ body{
 	    justify-content: center;
 	    flex-direction: column;
 	    padding: 20px;
+  		scroll-snap-type: x mandatory;
 	}
 
 	.sectioncontainer .section{
@@ -193,6 +194,7 @@ body{
 	    display: flex;
 	    flex-wrap: wrap;
 	    margin-top: 50px;
+	    scroll-snap-align: start;
 	}
 }
 

@@ -126,13 +126,32 @@ body{
 
 */
 @media only screen and (max-width: 990px) {
+	.lineone{
+		width: 20px;
+		height: 70%;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		background: linear-gradient(0deg, #D9E2FA 0%,  #FFCDBD 100%);
+		border-radius: 0px 90px 0px 0px;
+		}
+
+	.linetwo{
+		width: 20px;
+		height: 70%;
+		position: fixed;
+		right: 0;
+		top: 0;
+		background: linear-gradient(0deg, #FFCDBD 0%,  #D9E2FA 100%);
+		border-radius: 0px 0px 0px 90px;
+	}
 
 	body{
 		font-family: Lexend;
 		display: flex;
 		flex-direction: column;
-		margin-left: 50px;
-		margin-right: 50px;
+		margin-left: 25px;
+		margin-right: 25px;
 		margin-top: 75px;
 		color: #545760;
 	}
@@ -146,7 +165,14 @@ body{
 	.infocard .daticontainer {
 	    display: flex;
 	    flex-direction: column;
-	    align-items: center;
+	    align-items: flex-start;
+	}
+
+	.infocard .links {
+	    margin-top: 14px;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: flex-start;
 	}
 
 	.infocard .image{

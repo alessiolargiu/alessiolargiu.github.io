@@ -183,17 +183,20 @@ body{
   	.sectioncontainer{
 		margin-top: 62px;
 	    display: flex;
-	    justify-content: center;
+	    flex-wrap: wrap;
 	    flex-direction: column;
 	    padding: 20px;
-  		scroll-snap-type: y mandatory;
+	    height: 100vh;
+	    height: 100dvh;
+	    overflow-y: scroll;
+	    scroll-snap-type: y proximity;
 	}
 
 	.sectioncontainer .section{
+		min-height: 100vh;
 	    width: auto;
 	    display: flex;
 	    flex-wrap: wrap;
-	    margin-top: 50px;
 	    scroll-snap-align: start;
 	}
 }

@@ -35,6 +35,11 @@ body{
 	color: #545760;
 }
 
+a{
+	text-decoration: underline;
+	color: #6E5750;
+}
+
 /*
 .infocard{
     display: flex;

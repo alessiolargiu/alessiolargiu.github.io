@@ -154,12 +154,22 @@ body{
 		margin-right: 25px;
 		margin-top: 75px;
 		color: #545760;
+		height: 100vh;
+		height: 100dvh;
+		overflow-y: scroll;
+	    scroll-snap-type: y proximity;
+	}
+
+	.title{
+		scroll-snap-align: start;
+		margin-top: 16px;
 	}
 
 	.infocard{
 	    display: flex;
 	    flex-direction: column;
 	    margin: auto;
+	    scroll-snap-align: start;
 	}
 
 	.infocard .daticontainer {
@@ -185,20 +195,16 @@ body{
 	    display: flex;
 	    flex-wrap: nowrap;
 	    flex-direction: column;
-	    padding: 20px;
-	    height: 100vh;
-	    overflow-y: scroll;
-	    scroll-snap-type: y proximity;
+	    padding: 20px; 
+	    height: fit-content;
 	}
 
 	.sectioncontainer .section{
-		flex-1;
-		min-height: 100vh;
+		flex: 1;
 	    width: auto;
 	    display: flex;
 	    flex-wrap: wrap;
 	    flex-direction: column;
-	    scroll-snap-align: start;
 	}
 }
 
